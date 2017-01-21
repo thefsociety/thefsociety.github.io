@@ -713,7 +713,7 @@
             </div>
         </div>
     </div>
-          
+   
             <script src="vendor/jquery/jquery.min.js"></script>
             <!-- Bootstrap Core JavaScript -->
             <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
@@ -728,6 +728,9 @@
 
            
             <script src="js/creative.min.js"></script>
+     <script language="text/javascript">
+    document.onmousedown=disableclick;status="Right Click Disabled";function disableclick(event){  if(event.button==2)   {     alert(status);     return false;       }}
+       </script>   
 </body>
 
 </html>
